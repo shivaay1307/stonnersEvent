@@ -7,6 +7,6 @@ const IndexPage = () => {
   )
 }
 
-export const Head = () => <title>Home Page</title>
+export const Head = () => <title>The Stonners Festival</title>
 
 export default IndexPage
