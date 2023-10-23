@@ -1,0 +1,239 @@
+.navbar {
+  padding: 30px;
+  transition: 1s;
+}
+.navbar.scroll {
+  background: #3498db;
+}
+.navbar-brand {
+  font-weight: bold;
+  color: #fff;
+  padding-left: 150px;
+  font-style: italic;
+  text-transform: capitalize;
+}
+.navbar-brand a{
+  font-size: 30px !important;
+  color: #fff !important;
+  text-decoration: none;
+}
+.navbar-brand a:hover{
+  color: #dc3445 !important;
+}
+.navbar-nav {
+  padding-left: 300px;
+}
+.nav-link {
+  font-weight: bold;
+  font-style: italic;
+  color: #fff !important;
+  transition: 0.6s;
+  border-radius: 10px;
+  text-transform: capitalize;
+  width: 80px;
+  text-align: center;
+  margin: 0px 20px;
+}
+.nav-link:hover {
+  transform: translateY(-5px);
+  background: #dc3445;
+}
+.navbar-expand-sm .navbar-collapse{
+  justify-content: center;
+  align-items: center;
+}
+.navbar-brand {
+  padding-left: 80px;
+}
+.navbar-expand-sm .navbar-nav .nav-link {
+  padding: 0.5rem 2rem;
+}
+.login {
+  margin-left: 1rem;
+  padding-right: 80px;
+  text-transform: uppercase;
+  border-radius: 10px;
+  transition: 0.6s;
+  background: #dc3445;
+}
+.login a{
+  font-size: 25px !important;
+}
+.login a:hover{
+  color: #fff !important;
+}
+.login:hover{
+  transform: translateY(-5px);
+}
+/* Header section */
+.header {
+  margin: 0;
+  padding: 0;
+}
+.header .img-parent {
+  position: relative;
+}
+.header img {
+  width: 100%;
+  height: 100vh;
+}
+.header .img-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #000;
+  z-index: 1;
+  opacity: 0.4;
+}
+.header .img-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  color: #fff !important;
+  text-align: center !important;
+  justify-content: center !important;
+}
+.header .img-content h2 {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 70px;
+  margin-bottom: 20px !important;
+}
+.header .img-content h4 {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 35px;
+  -webkit-text-stroke: 0.3px yellow;
+  letter-spacing: 0.9px;
+  background-color: #0000003e;
+}
+.header .img-content span {
+  font-weight: 500;
+  font-size: 20px;
+  font-style: italic;
+  letter-spacing: 0.2px;
+}
+.muteImage{
+  height: 50px !important;
+  width:  50px !important;
+}
+.event {
+  margin-top: 150px !important;
+  margin-bottom: 150px !important;
+}
+.event-content {
+  box-shadow: 10px 10px 10px -10px rgba(0, 0, 0, 0.3),
+    inset 10px 10px 10px -10px rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  background: #fff !important;
+  margin-top: -30px !important;
+  margin-left: 25px !important;
+  position: relative;
+  width: 450px;
+  height: 170px;
+  margin-bottom: 40px;
+  border-radius: 2px;
+}
+.event-content h4 {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+.event-content span {
+  font-style: italic;
+  font-size: 15px;
+}
+.event-content a {
+  text-transform: uppercase;
+  margin-top: 10px !important;
+  font-weight: bold;
+}
+.soundContainer{
+  width: 60px;
+  max-width: 70px;
+  max-height: 70px;
+  position: absolute;
+  top: 60px;
+  right: 60px;
+  padding: 10px;
+  z-index: 2;
+  background-color: #fff;
+  border-radius: 25%;
+}
+.video-container {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+}
+.tiles-videos {
+  width: 100%;
+  height: 295px;
+  transition: 0.6s;
+  border: 10px solid #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.tiles-videos:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.video-banner{
+  max-width: 100%;
+  width: 100%;
+  margin: 0 auto;
+}
+.navbar-toggler{
+  z-index: 51511;
+  border: 2px solid #fff;
+}
+.navbar-toggler-icon{
+
+}
+@media (max-width: 720px) {
+  .navbar-brand {
+    padding-left: 25px;
+  }
+  .navbar-toggler {
+    margin-right: 25px;
+  }
+  .login{
+    display: none;
+  }
+  .event-content{
+    width: 86%;
+    height: auto;
+  }
+  .video-banner{
+  min-height: 100vh;
+  object-fit: cover;
+  }
+  .soundContainer{
+    right: 20px;
+  }
+  .header .img-content h2{
+    font-size: 50px;
+  }
+  .header .img-content{
+    width: 95%;
+  }
+  .show{
+    height: 105vh;
+    background-color: black;
+    overflow: hidden;
+    margin-top: -50px;
+  }
+  .navbar-toggler{
+    z-index: 51511;
+    border: 1px solid #fff !important;
+  }
+  .show .navbar-nav{
+    margin-top: 30%;
+  }
+}
+  
